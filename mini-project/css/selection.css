@@ -1,0 +1,28 @@
+.container1{
+    width: 30%;
+    height: auto;
+    background-color:#555 ;
+    padding:3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+  
+    width: 400px;
+    height: 350px;
+    font-size: large;
+  
+    margin-top: 5px;
+    padding-top: 20px;
+  
+    border-radius: 12px;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+    background: #1f1f1f;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
+    color:white;
+    float:right;
+}

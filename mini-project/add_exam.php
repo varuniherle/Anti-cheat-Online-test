@@ -10,7 +10,7 @@ session_start();
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/common.css">
-    <link rel="stylesheet" type="text/css" href="css/admin_login.css">
+    <link rel="stylesheet" type="text/css" href="css/admin.css">
 </head>
 <body>
 <div class="sidebar">
@@ -25,14 +25,14 @@ session_start();
   <h1 class = "main">Hidden Answers</h1>
   <br><br>
   <div class = "exam_form">
-  <form method = "post" action = "">
+  <form method = "post" action = "" class="form-signin">
   <div class="form-group">
     <label >Exam name</label>
     <input type="text" class="form-control" placeholder="Enter Exam name" name = "exam">
   </div> 
   <div class="form-group">
     
-    <input type="submit" class="submit-btn" name = "submit1">
+    <input type="submit" class="btn btn-lg btn-dark btn-block" name = "submit1">
   </div> 
   </form> 
   </div> <!-- exam_form-->

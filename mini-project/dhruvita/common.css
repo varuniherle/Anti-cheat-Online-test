@@ -1,0 +1,13 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(206,174,238);
+
+    background: linear-gradient(299deg, rgba(206,174,238,1) 0%, rgba(139,161,216,1) 96%);
+    overflow: hidden;
+}
+
+a:hover {
+    background-color: #F7926D;
+    border-radius: 30%;
+  }
+  

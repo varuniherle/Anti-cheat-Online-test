@@ -1,0 +1,32 @@
+#div1{
+    width: 80%;
+    height: 130%;
+    padding-top: 20px;
+
+ border-radius: 20%;
+}
+#main_div{
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+#sub_div{
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+#div2{
+    width: 80%;
+    height: 130%;
+    padding-top: 20px;
+    border-radius: 20%;
+}
+
+#div3{
+    width: 80%;
+    height: 130%;
+    padding-top: 20px;
+    border-radius: 20%;
+}

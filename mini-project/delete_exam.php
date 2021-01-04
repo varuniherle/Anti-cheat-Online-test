@@ -39,15 +39,35 @@ else{
     <link rel="stylesheet" type="text/css" href="css/admin_login.css">
 </head>
 <body>
-<div class="sidebar">
-  <a href="admin_dashboard.php"> Home </a>
-  <a href="add_exam.php">Add Skill Test</a>
-  <a href="delete_exam.php" class = "active">Delete Exam</a>
-  
-</div>
+<div class="content">
+        <h1 class="main" style="text-align: center;">Hidden Answers Admin</h1>
+    </div>
+    <nav class="navbar navbar-expand-sm  navbar-light sticky-top" style="background-color: #e3f2fd;">
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link" href="admin_dashboard.php">Admin dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="add_exam.php">Add Exam</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="delete_exam.php">Delete Exam</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
 
 <div class="content">
-  <h1 class = "main">Hidden Answers</h1>
+  
   <br><br>
   <div  class = "exam_form">
   <form method = "post" action = "">
